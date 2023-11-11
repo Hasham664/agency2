@@ -1,0 +1,22 @@
+.service {
+  text-align: center;
+  padding-top: 50px;
+  font-family: sans-serif;
+}
+.service h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #1f1f25;
+}
+.service p {
+  color: #717173;
+  font-size: 19px;
+  max-width: 600px;
+  padding-top: 10px;
+  margin: auto;
+}
+@media all and (max-width: 768px) {
+  .service h1 {
+    font-size: 30px;
+  }
+}

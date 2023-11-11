@@ -1,0 +1,48 @@
+.finalpic {
+  background-image: url(./lastPic.png);
+  /* background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%); */
+  margin-top: 100px;
+  background-color: #f9004d;
+}
+.lastContent {
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+  padding-bottom: 100px;
+}
+.lastContent h1 {
+  font-size: 60px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.btn {
+  margin-top: 50px;
+  /* padding-bottom: 80px; */
+}
+.btn button {
+  font-size: 16px;
+  letter-spacing: 2px;
+  border: 2px solid #ffffff;
+  padding: 16px 40px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+  transition: 0.3s;
+  color: white;
+  cursor: pointer;
+  /* transition: all ease-in 0.4s; */
+}
+.btn button:hover {
+  background-color: #f9004d;
+  margin-top: -4px;
+  border: none;
+}
+
+@media all and (max-width: 768px) {
+  .finalpic {
+    margin-top: 0px;
+  }
+  .lastContent h1 {
+    font-size: 35px;
+  }
+}
